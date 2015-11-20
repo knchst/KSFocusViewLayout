@@ -70,9 +70,9 @@ class KSFocusViewLayout: UICollectionViewLayout {
     
     override func prepareLayout() {
         var cache = [UICollectionViewLayoutAttributes]()
-        let numberOfItems = self.collectionView?.numberOfItemsInSection(0)
         var frame = CGRectZero
         var y: CGFloat = 0.0
+        let numberOfItems = self.collectionView?.numberOfItemsInSection(0)
         
         for (var item = 0; item < numberOfItems; item++) {
             let indexPath = NSIndexPath(forItem: item, inSection: 0)

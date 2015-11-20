@@ -13,6 +13,11 @@
 		277891A81BFB82F100187B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277891A71BFB82F100187B6B /* Assets.xcassets */; };
 		277891AB1BFB82F100187B6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277891A91BFB82F100187B6B /* LaunchScreen.storyboard */; };
 		277891B31BFB83C800187B6B /* KSFocusViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277891B21BFB83C800187B6B /* KSFocusViewLayout.swift */; };
+		27B550BC1BFF819300075736 /* KSCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B550BA1BFF819300075736 /* KSCollectionViewCell.swift */; };
+		27B550BD1BFF819300075736 /* KSCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B550BB1BFF819300075736 /* KSCollectionViewCell.xib */; };
+		27B550BF1BFF90C200075736 /* image-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27B550BE1BFF90C200075736 /* image-1.jpg */; };
+		27B550C11BFF90CD00075736 /* image-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27B550C01BFF90CD00075736 /* image-2.jpg */; };
+		27B550C31BFF90D600075736 /* image-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27B550C21BFF90D600075736 /* image-0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		277891AA1BFB82F100187B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		277891AC1BFB82F100187B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		277891B21BFB83C800187B6B /* KSFocusViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSFocusViewLayout.swift; sourceTree = "<group>"; };
+		27B550BA1BFF819300075736 /* KSCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSCollectionViewCell.swift; sourceTree = "<group>"; };
+		27B550BB1BFF819300075736 /* KSCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCollectionViewCell.xib; sourceTree = "<group>"; };
+		27B550BE1BFF90C200075736 /* image-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-1.jpg"; sourceTree = "<group>"; };
+		27B550C01BFF90CD00075736 /* image-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-2.jpg"; sourceTree = "<group>"; };
+		27B550C21BFF90D600075736 /* image-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-0.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,9 @@
 		2778919F1BFB82F100187B6B /* KSFocusViewLayout */ = {
 			isa = PBXGroup;
 			children = (
+				27B550C21BFF90D600075736 /* image-0.jpg */,
+				27B550BE1BFF90C200075736 /* image-1.jpg */,
+				27B550C01BFF90CD00075736 /* image-2.jpg */,
 				277891A01BFB82F100187B6B /* AppDelegate.swift */,
 				277891A21BFB82F100187B6B /* ViewController.swift */,
 				277891A41BFB82F100187B6B /* Main.storyboard */,
@@ -63,6 +76,8 @@
 				277891A91BFB82F100187B6B /* LaunchScreen.storyboard */,
 				277891AC1BFB82F100187B6B /* Info.plist */,
 				277891B21BFB83C800187B6B /* KSFocusViewLayout.swift */,
+				27B550BA1BFF819300075736 /* KSCollectionViewCell.swift */,
+				27B550BB1BFF819300075736 /* KSCollectionViewCell.xib */,
 			);
 			path = KSFocusViewLayout;
 			sourceTree = "<group>";
@@ -127,6 +142,10 @@
 			files = (
 				277891AB1BFB82F100187B6B /* LaunchScreen.storyboard in Resources */,
 				277891A81BFB82F100187B6B /* Assets.xcassets in Resources */,
+				27B550C31BFF90D600075736 /* image-0.jpg in Resources */,
+				27B550BD1BFF819300075736 /* KSCollectionViewCell.xib in Resources */,
+				27B550C11BFF90CD00075736 /* image-2.jpg in Resources */,
+				27B550BF1BFF90C200075736 /* image-1.jpg in Resources */,
 				277891A61BFB82F100187B6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +159,7 @@
 			files = (
 				277891A31BFB82F100187B6B /* ViewController.swift in Sources */,
 				277891A11BFB82F100187B6B /* AppDelegate.swift in Sources */,
+				27B550BC1BFF819300075736 /* KSCollectionViewCell.swift in Sources */,
 				277891B31BFB83C800187B6B /* KSFocusViewLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +310,7 @@
 				277891B11BFB82F100187B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

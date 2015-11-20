@@ -20,14 +20,9 @@ class KSFocusViewLayout: UICollectionViewLayout {
     let kKSFocusViewLayoutStandardHeight: CGFloat = 100.0
     let kKSFocusViewLayoutFocusedHeight: CGFloat = 280.0
     let kKSFocusViewLayoutDragOffset: CGFloat = 180.0
-
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
     
     override init() {
         super.init()
-        
         initializer()
     }
     
@@ -35,6 +30,11 @@ class KSFocusViewLayout: UICollectionViewLayout {
         standardHeight = kKSFocusViewLayoutStandardHeight
         focusedHeight = kKSFocusViewLayoutFocusedHeight
         dragOffset = kKSFocusViewLayoutDragOffset
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        initializer()
     }
     
     override func collectionViewContentSize() -> CGSize {
